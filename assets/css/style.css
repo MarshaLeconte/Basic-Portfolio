@@ -1,0 +1,23 @@
+.header-logo{
+width: 50%;
+height: 60px;
+border: 1px solid red;
+display:inline-block;
+position: relative;
+}
+
+
+#logo{
+    border: 1px solid red;
+    background-color:#4aaaa5;
+    color: white;
+    position: absolute;
+    
+
+}
+.header-nav{
+    width: 49%;
+    height: 50px;
+    border: 1px solid blue;
+    display:inline-block;
+}
