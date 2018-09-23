@@ -44,7 +44,7 @@ float:left;
     height: 480px;
     border: 1px solid greenyellow;
     margin: 0 auto 0 auto;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #containterTop{
@@ -67,16 +67,29 @@ float:left;
 
 #img{
     width: 200px;
-    height: 200px;
+    height: 180px;
     padding: 20px 20px 20px 44px;
     float: left;
    
 }
 
-#text{
-    clear: both;
-    overflow: hidden;
+#text1{
+    
+    text-align: justify;
+    padding: 10px 10px 10px 4px;
+    line-height: 30px;
+    
 }
+
+#text2{
+    clear: both;
+    overflow: auto;
+    text-align: justify;
+    padding: 0 20px 10px 44px;
+    line-height: 30px;
+    
+}
+
 
 
 
