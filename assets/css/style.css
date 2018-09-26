@@ -60,31 +60,87 @@ table {
 
 #logo{
     border: 2px solid palevioletred;
-    width: 49%;
+    width: 20%;
+    padding-top:  50px;
+    padding-bottom: 50px;
+    margin-left: 240px;
     display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #nav{
     border: 2px solid palevioletred;
-    width: 50%; 
+    width: 44%; 
+    margin-left: 30px;
     display: inline-block;
+    text-align: right;
 }
 
 .mainSection{
     border: 2px solid green;
     height: 50%;
-
-    background-image: url("/Users/ml/Desktop/Bootcamp/homework/Basic-Portfolio/assets/images/extraClean.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 #main{
     width: 960px;
-    border: 1px solid greenyellow;
+   /* border: 1px solid  blue;*/
     margin: 0 auto 0 auto;
+    padding: 60px;
+}
+
+#sectionName{
+   /* border: 2px solid red;*/
+    padding-top:  50px;
+    padding-bottom: 50px;
+    /*
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;*/
+}
+
+#name{
+    margin-left: 68px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+hr{
+    width: 900px;
+    font-size:10px;
+    color: #dddddd;
+}
+
+#mainBorder{
+    border: 2px solid #dddddd;
+}
+
+
+#img{
+    width: 200px;
+    height: 180px;
+    padding: 20px 20px 20px 44px;
+    float: left;
+   
+}
+
+#text1{
+    
+    text-align: justify;
+    padding: 10px 10px 10px 4px;
+    line-height: 30px;
+    
+}
+
+#text2{
+    clear: both;
+    overflow: auto;
+    text-align: justify;
+    padding: 0 20px 10px 44px;
+    line-height: 30px;   
 }
 
 .footerSection{
