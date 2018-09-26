@@ -55,18 +55,36 @@ table {
 
 .headerSection{
     border: 2px solid palevioletred;
-    height: 25%;
+    
 }
 
 #logo{
     border: 2px solid palevioletred;
-    padding:100px;
+    width: 49%;
+    display: inline-block;
+}
 
+#nav{
+    border: 2px solid palevioletred;
+    width: 50%; 
+    display: inline-block;
 }
 
 .mainSection{
     border: 2px solid green;
     height: 50%;
+
+    background-image: url("/Users/ml/Desktop/Bootcamp/homework/Basic-Portfolio/assets/images/extraClean.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#main{
+    width: 960px;
+    border: 1px solid greenyellow;
+    margin: 0 auto 0 auto;
 }
 
 .footerSection{
