@@ -3,7 +3,7 @@ header{
     border: 1px solid gray;
     height: 100px;
     width: 960px;
-    margin: 0 auto 0 auto;
+    margin: 100px auto 0 auto;
 }
 
 /*
@@ -26,9 +26,11 @@ display: inline-block;
    
     /*left: 233px;*/
     border: 1px solid brown;
-    width:40%;
+    width:240px;
     padding-left: 43px;
     display: inline-block;
+    background-color: #4aaaa5;
+    color: white;
     
 }
 #nav{
@@ -51,7 +53,9 @@ a{
 
 
 /* body */
-
+body{
+    background-image: url("assets/images/ML.jpg");
+}
 .container{
     clear: both;
     width: 960px;
@@ -59,6 +63,7 @@ a{
     border: 1px solid greenyellow;
     margin: 0 auto 0 auto;
     overflow: auto;
+   
 }
 
 #containterTop{
@@ -112,8 +117,9 @@ a{
     width: 100%;
     margin: 0;
     padding-top: 40px;
-    border: 1px solid rgb(111, 0, 255);
+    border-top: 5px solid #4aaaa5;
     text-align: center;
+    background-color:#666666;
+    color:white;
 }
-
 
