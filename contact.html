@@ -3,16 +3,88 @@
 <head>
     <meta charset="utf-8" />
     <title>Contact</title>
-    <link rel="stylesheet"  href="assets/css/style.css" />
+    
+    <style>
+    /*
+    legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+    
+}*/
+
+input,
+label,
+textarea{
+    width: 43%;
+}
+
+input
+ {
+    
+    padding: 5px;
+    border: 1px solid #dddddd;
+    height: 28px;
+    color:#777777;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+input:active{
+    color:black;
+}
+
+label {
+    display: inline-block;
+    font-size: 16px;
+    color: #cccccc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+textarea{
+    padding: 10px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    </style>
 </head>
 <body>
     
-    <div class="main">
-
-    </div>
-    
         
+          
+                <form>
+                    <div>
+                        <label for="name"> Name</label>
+                        <br>
+
+                        <input type="text" id="name" name="name" value="Fredi Washington" />
+                    </div>
+                    
+                    <div>
+                            <label for="email"> Email</label>
+                            <br>
     
+                            <input type="email" id="email" name="email" value="example@gmail.com"/>
+                    </div>
+
+
+            </form>
+
+        <div>
+                <label for="comment">Comment</label>
+                <br>
+                <textarea name="comment" id="comment" cols="55" rows="10"></textarea>
+
+        </div>
 
 </body>
 </html>
