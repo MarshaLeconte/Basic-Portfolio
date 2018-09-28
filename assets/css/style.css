@@ -54,13 +54,14 @@ table {
 
 .headerSection,
 .mainSection,
-.footerSection{
+.footerSection,
+.mainSectionFolio{
+    
     width: 100%;
     margin: 0;
+    padding:0;
     
 }
-
-
 
 #logo{
     /*border: 2px solid palevioletred;*/
@@ -92,33 +93,38 @@ a{
     word-spacing: 9px;
 
 }
+
+a:hover{
+    color:#4aaaa5;
+}
 .mainSection{
-     /*border: 2px solid green;*/
-   /* background-image: url("/Users/ml/Desktop/Bootcamp/homework/Basic-Portfolio/assets/images/extraClean.png");*/
+     /*border: 2px solid orangered;*/
     background-image: url(".../assets/images/extraClean.png");
     border-top: 5px solid #cccccc;
-    border-bottom: 5px solid #4aaaa5;
-    padding-bottom: 74px;
+    /*border-bottom: 5px solid #4aaaa5;*/
+    padding-bottom: 100px;
     margin:0;
 }
 
 #main{
-    /*border: 1px solid  blue;*/
+   /* border: 1px solid  blue;*/
     width: 960px;
     margin: 0 auto 0 auto;
-    padding: 20px;
+    padding: 50px; 
 }
 
 #sectionName{
-   /* border: 2px solid red;*/
-    padding-top:  50px;
-    padding-bottom: 10px;
+  /*border: 2px solid red;*/
+    padding-top:  5px;
+    padding-bottom: 5px;
  
 }
 
 #name{
-    margin-left: 68px;
-    padding-bottom: 20px;
+    /*border: 2px solid greenyellow;*/
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 30px;
     font-weight: bold;
     color: #4aaaa5;
@@ -141,7 +147,6 @@ hr{
     height: 205px;
     padding: 20px 20px 20px 44px;
     float: left;
-   
 }
 
 p{
@@ -167,11 +172,15 @@ p{
 
 .footerSection{
     /*border: 2px solid red;*/
+    position:absolute;
+    bottom: 0;
     background-color: #666666;
-    /*border-top: 5px solid #4aaaa5;*/
+    border-top: 5px solid #4aaaa5;
     color: white;
     text-align: center;
-    padding: 20px;
+    margin:0;
+    padding-top: 15px;
+    padding-bottom: 15px;
     
 }
 
@@ -201,9 +210,7 @@ input
     font-size: 14px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-input:active{
-    color:black;
-}
+
 
 label {
     display: inline-block;
@@ -222,9 +229,9 @@ textarea{
     color:#777777;
 }
 
-div{
-    margin-top: 5px; 
-    margin-bottom: 5px; 
+formDiv{
+    margin-top: 15px; 
+    margin-bottom: 15px; 
 }
 
 #submit{
@@ -237,4 +244,63 @@ div{
     color: white;
     font-size: 19px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/* specific to portfolio.html----------------------------------------------------------------------------------------*/
+
+.mainSectionFolio{
+  /*border: 2px solid orangered;*/
+   background-image: url(".../assets/images/extraClean.png");
+   border-top: 5px solid #cccccc;
+   /*border-bottom: 5px solid #4aaaa5;*/
+   padding-bottom: 0x;
+   margin:0;
+}
+
+#mainFolio{
+    /*border: 1px solid  blue;*/
+     width: 960px; 
+     margin: 0 auto 0 auto;
+     padding-bottom: 5px; 
+ }
+ 
+ #sectionNameFolio{
+     /*border: 2px solid red;*/
+     padding-top:  5px;
+     padding-bottom: 5px;
+  
+ }
+
+#pfolio{
+    /*border: 1px solid orange;
+    display: inline-block;*/
+    width: 150px;
+    height: 150px;
+    padding:5px;
+    /*margin: 20px;*/
+    
+}
+
+#imageSfolio{
+    margin: 0;  
+}
+
+#test {
+    border: 1px solid orange;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+#caption{ 
+    
+    padding: 5px;
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    right: 50%;
+
 }
