@@ -94,7 +94,8 @@ a{
 }
 .mainSection{
      /*border: 2px solid green;*/
-    background-image: url("/Users/ml/Desktop/Bootcamp/homework/Basic-Portfolio/assets/images/extraClean.png");
+   /* background-image: url("/Users/ml/Desktop/Bootcamp/homework/Basic-Portfolio/assets/images/extraClean.png");*/
+    background-image: url(".../assets/images/extraClean.png");
     border-top: 5px solid #cccccc;
     border-bottom: 5px solid #4aaaa5;
     padding-bottom: 74px;
